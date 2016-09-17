@@ -1,0 +1,29 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:   /:categories/:title/
+#relative_permalinks: true
+
+# Setup
+title:               Socrates Data Science Blog
+#tagline:             'A Jekyll theme'
+description:         'In this Blog you will find my journey towards becoming Data Scientist. The Challenges I faced and addressed, Data Science Competitions, Tools, and Tips & Tricks. Contact me <a href="https://twitter.com/ksocrates" target="_blank">@ksocrates</a>.'
+url:                 http://projects.socratesk.com
+baseurl:             ''
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+  
+paginate:            5
+
+# About/contact
+author:
+  name:              Socrates Krishnamurthy
+  url:               https://twitter.com/ksocrates
+  email:             socratesk@gmail.com
+
+# Custom vars
+version:             1.0.0
