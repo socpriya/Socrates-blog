@@ -7,5 +7,5 @@ Before learning any tools and technologies, it would be beneficial if we could u
 <br>
 
 
-![screenshot]({{ site.baseurl }}/assets/img/SparkR Architecture.png)
+![screenshot]({{ site.baseurl }}/assets/img/SparkR Architecture.tiff)
 ![screenshot]({{ site.baseurl }}/assets/img/underscore.png)
