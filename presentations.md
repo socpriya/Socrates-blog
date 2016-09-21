@@ -6,7 +6,7 @@ title: Presentations
 ![screenshot]({{site.baseurl}}/assets/img/underscore.png)
 Being Cloudera Certified Developer for Apache Hadoop (CCDH), I gave a presentation on Hadoop technology to my company during last quarter of 2013.
 
- The presentation material can be found [here]({{ site.baseurl }}/assets/pdf/hadoop.pdf)
+ The presentation material can be found [here]({{ site.baseurl }}/assets/pdf/Hadoop.pdf)
 
 ![screenshot]({{site.baseurl}}/assets/img/underscore.png)
 

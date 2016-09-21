@@ -6,7 +6,7 @@ title:               Socrates Data Science Blog
 #tagline:            'A Jekyll theme'   // Commented by SOC
 description:         'In this Blog you will find my journey towards becoming Data Scientist. The Challenges I faced and addressed, Data Science Competitions, Tools, and Tips & Tricks. Contact me <a href="https://twitter.com/ksocrates" target="_blank">@ksocrates</a>.'
 url:                 http://projects.socratesk.com
-base:             	'/blog'
+baseurl:             	''
 
 gems:
   - jekyll-sitemap
