@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Visulization of data using googleVis 
+title: Visualization of Data using googleVis 
 ---
 
-This is my attempt to visualize data using googleVis.
+This is my attempt to visualize Bikesharing data, published in [Kaggle's Competition site](https://www.kaggle.com/c/bike-sharing-demand/data), using googleVis.
 
 <!-- jsHeader -->
 <script type="text/javascript">
