@@ -103,5 +103,4 @@ callbacks.shift()();
 <br>
 
 
-![screenshot]({{ site.baseurl }}/assets/img/SparkR Architecture.png)
 ![screenshot]({{ site.baseurl }}/assets/img/underscore.png)
