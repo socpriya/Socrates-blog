@@ -96,11 +96,7 @@ callbacks.shift()();
  
 <!-- divChart -->
   
-<div id="MotionChartID20b09e65ef7" 
-  style="width: 800; height: 600;">
+<div id="MotionChartID20b09e65ef7" style="width: 800; height: 600;">
 </div>
-
-<br>
-
 
 ![screenshot]({{ site.baseurl }}/assets/img/underscore.png)
