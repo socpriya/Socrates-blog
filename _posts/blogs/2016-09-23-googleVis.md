@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Visualization of Data using googleVis 
+title: Visualization of Data using googleVis
+category: blog
 ---
 
 Want to learn how to develop a googleVis Motion Chart and upload it in your blog or website, using R? I downloaded the Bikesharing dataset from [Kaggle's Competition site](https://www.kaggle.com/c/bike-sharing-demand/data), performed some data munging and grouping, and prepared a googleVis Motion Chart. In  X-axis, choose 'Time' variable instead of  default 'Period' to match with the slider below. You may slowdown the animation by dragging arrow down the arrow as indicated here. ![arrow]({{ site.baseurl }}/assets/img/googlevis_slider.png)
@@ -7394,7 +7395,4 @@ callbacks.shift()();
 </div>
 
 <br>
-
 The R code for this chart can be found in my [Github repo.](https://github.com/socratesk/blog-codes/blob/master/GoogleVisMotionChart.R)
-
-![screenshot]({{ site.baseurl }}/assets/img/underscore.png)

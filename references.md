@@ -1,6 +1,8 @@
 ---
 layout: page
 title: References
+url: references
+navigation_weight: 3
 ---
 
 ![screenshot]({{site.baseurl}}/assets/img/underscore.png)

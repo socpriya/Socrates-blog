@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Presentations
+url: presentations
+navigation_weight: 2
 ---
 
 ![screenshot]({{site.baseurl}}/assets/img/underscore.png)

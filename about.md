@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About Me
+url: about
+navigation_weight: 1
 ---
 
 <p class="message">
