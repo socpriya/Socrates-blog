@@ -17,6 +17,14 @@ To predict the probabilities, I used Random Forest with 4 fold repeated cross-va
 ```trcontrol <- trainControl(method = "repeatedcv", number = 4, repeats = 2, verboseIter = FALSE, returnResamp = "all", classProbs = TRUE)```
 
 The complete code for Random Forest model can be found in my Github [here](https://github.com/socratesk/kaggle/blob/master/Walmart-1/2-RandomForest-FeatureEngg.R).
+
+<center>- - - - -</center>
+
+A good thing with XGBoost algorithm is, it has a built-in **mlogloss** evaluation metric type that can be passed as a parameter while training the data. 
+
+```xgbcv <- xgb.cv(param = list('objective' = 'multi:softprob', 'eval_metric' = 'mlogloss', 'num_class' = noOfClasses), data = trainMatrix, label = Target, nrounds = cv.round, nfold = cv.nfold)```
+
+The complete code for XGBoost model can be found in my Github [here](https://github.com/socratesk/kaggle/blob/master/Walmart-1/1-XGBoost-FeatureEngg.R).
 <br>
 
 ![screenshot]({{ site.baseurl }}/assets/img/underscore.png)
