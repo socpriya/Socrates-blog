@@ -9,7 +9,7 @@ navigation_weight: 2
 
 MongoDB is one of the NoSQL Document-oriented datastores being adopted widely in the industry. The _Nexus Architecture_ of MongoDB is greatly leveraged by Analytical and Data Science area recently. On this, I gave multiple presentations to my company in the month of October 2016.
 
-The presentation on this can be found [here]({{ site.baseurl }}/assets/pdf/MongoDB-Overview.pdf)
+Want to take a look at the presentation material? Click [here]({{ site.baseurl }}/assets/pdf/MongoDB-Overview.pdf)
 
 ![screenshot]({{site.baseurl}}/assets/img/underscore.png)
 
