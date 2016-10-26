@@ -7,7 +7,7 @@ navigation_weight: 1
 ---
 
 <div class="post-author text-center">                       
-            <img src="{{ site.baseurl }}{{ site.urlimg }}{{ site.author.avatar }}" alt="{{ site.author.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/> 
+            <img src="{{ site.urlimg }}{{ site.author.avatar }}" alt="{{ site.author.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/> 
 </div>
 
 
