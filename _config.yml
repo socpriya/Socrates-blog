@@ -7,6 +7,7 @@ title:               Socrates Data Science Blog
 description:         'In this Blog you will find my journey towards becoming Data Scientist. The Challenges I faced and addressed, Data Science Competitions, Tools, and Tips & Tricks. Contact me <a href="https://twitter.com/ksocrates" target="_blank">@ksocrates</a>.'
 url:                 http://projects.socratesk.com
 baseurl:             	''
+urlimg: 			'/assets/img/'
 
 gems:
   - jekyll-sitemap
@@ -21,6 +22,9 @@ author:
   name:              Socrates Krishnamurthy
   url:               https://twitter.com/ksocrates
   email:             socratesk@gmail.com
+  avatar:			 socpix.jpg
 
 # Custom vars
 version:             1.0.0
+
+  
