@@ -14,17 +14,17 @@ The [dataset]( https://www.kaggle.com/c/allstate-claims-severity/data) comprised
 
 To test my submission file and to know where I stand in Public Leader Board, I prepared a quick and dirty [XGBoost Model](https://github.com/socratesk/kaggle/blob/master/Allstate/1-Basic-XGBoost.R) with basic and default parameters. After that I built the following set of models to ensemble:
 
- * Generalized Boosted Regression Model (GBM) with Out-of-Bag (OOB) estimator, _Gaussian_ distribution, and 5-fold cross-validation - [R Code](https://github.com/socratesk/kaggle/blob/master/Allstate/2-GBM.R)
+ * [Generalized Boosted Regression Model (GBM)](https://github.com/socratesk/kaggle/blob/master/Allstate/2-GBM.R) with Out-of-Bag (OOB) estimator, _Gaussian_ distribution, and 5-fold cross-validation
  
- * 5 H2O Deep Learning Models each with 2 levels of hidden layers, 20 epochs, _Huber_ distribution, and _Rectifier_ activation - [R Code](https://github.com/socratesk/kaggle/blob/master/Allstate/3-H2O%20Deep%20Learning.R)
+ * [5 H2O Deep Learning Models](https://github.com/socratesk/kaggle/blob/master/Allstate/3-H2O%20Deep%20Learning.R) each with 2 levels of hidden layers, 20 epochs, _Huber_ distribution, and _Rectifier_ activation
  
- * 10 folds of [MXNet](http://mxnet.io/) Deep Learning Models each with 2 levels of hidden layers and _one-hot encoding_ - [R Code](https://github.com/socratesk/kaggle/blob/master/Allstate/4-MXNet.R)
+ * 10 folds of [MXNet](http://mxnet.io/) [Deep Learning Models](https://github.com/socratesk/kaggle/blob/master/Allstate/4-MXNet.R) each with 2 levels of hidden layers and _one-hot encoding_
  
- * ExtraTrees Model with _one-hot encoding_ and 3 random cuts for each feature - [R Code](https://github.com/socratesk/kaggle/blob/master/Allstate/5-ExtraTrees.R)
+ * [ExtraTrees Model](https://github.com/socratesk/kaggle/blob/master/Allstate/5-ExtraTrees.R) with _one-hot encoding_ and 3 random cuts for each feature
 
- * XGBoost Model with parameter tuning and feature engineering - [R Code](https://github.com/socratesk/kaggle/blob/master/Allstate/6-XGBoost-FeatureEngg.R)
+ * [XGBoost Model](https://github.com/socratesk/kaggle/blob/master/Allstate/6-XGBoost-FeatureEngg.R) with parameter tuning and feature engineering
 
-After creating the above models, I took simple average of all the predictions. Then I applied different weightage to each model's predictions, cross-validated, and then submitted. Finally, at the end of the competition, I could get into [top 20% (604 out of 3055)](https://www.kaggle.com/c/allstate-claims-severity/leaderboard/private) in Private Leaderboard. 
+After creating the above models, I took simple average of all the predictions. Then I ensembled by appling different weightage to each model's predictions, cross-validated, and then submitted. Finally, at the end of the competition, I could get into [top 20% (604 out of 3055)](https://www.kaggle.com/c/allstate-claims-severity/leaderboard/private) in Private Leaderboard. 
 
 Refer below for first few rows of submission file:
 
