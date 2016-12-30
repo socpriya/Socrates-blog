@@ -24,7 +24,22 @@ To test my submission file and to know where I stand in Public Leader Board, I p
 
  * XGBoost Model with parameter tuning and feature engineering - [R Code](https://github.com/socratesk/kaggle/blob/master/Allstate/6-XGBoost-FeatureEngg.R)
 
-After creating the above models, I took simple average of all the predictions. Then I applied different weightage to each model's predictions, cross-validated, and then submitted. Finally, at the end of the competition, I could get into [top 20% (604 out of 3055)](https://www.kaggle.com/c/allstate-claims-severity/leaderboard/private) in Private Leaderboard.
+After creating the above models, I took simple average of all the predictions. Then I applied different weightage to each model's predictions, cross-validated, and then submitted. Finally, at the end of the competition, I could get into [top 20% (604 out of 3055)](https://www.kaggle.com/c/allstate-claims-severity/leaderboard/private) in Private Leaderboard. 
+
+Refer below for first few rows of submission file:
+
+| id | loss     |
+|----|----------|
+| 4  | 1626.451 |
+| 6  | 2034.433 |
+| 9  | 10186.82 |
+| 12 | 6364.859 |
+| 15 | 838.1675 |
+| 17 | 2330.886 |
+| 21 | 2103.839 |
+| 28 | 902.1843 |
+| 32 | 2544.185 |
+| 43 | 3245.454 |
 
 One of the key challenges with this competition is the size of the data, after _feature engineering_ and _one-hot encoding_. So, to process the data and generate the models, I used [Domino Data Lab's](http://dominodatalab.com/) computing platform. For most of the above models, I chose **Medium Hardware Tier** (4 core. 16GB RAM) costing around $40.
 ![screenshot]({{ site.baseurl }}/assets/img/underscore.png)
