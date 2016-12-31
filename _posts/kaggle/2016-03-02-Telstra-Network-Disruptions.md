@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Telstra - Prediction of Severity of Faults on Telecomm Network
+title: Telstra - Prediction of Severity of Faults on Telecommunication Network
 category: kaggle
 ---
 
