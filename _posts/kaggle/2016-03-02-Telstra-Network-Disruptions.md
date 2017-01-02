@@ -14,6 +14,15 @@ In this competition, **Multi-class logarithmic loss** was used to evaluate the p
 
 ![screenshot]({{ site.baseurl }}/assets/img/MCLL-Telstra.png)
 
+I generate the following set of models to submit them individually and then to ensemble:
+
+ * [5 Fold cross-validation XG Boost Model](https://github.com/socratesk/kaggle/blob/master/Telstra/1-XGBoost.R)
+
+ * [Generalized Boosted Regression Model (GBM)](https://github.com/socratesk/kaggle/blob/master/Telstra/2-GBM.R) with Out-of-Bag (OOB) estimator, ```repeatedcv```, and 5 separate 10-fold cross-validations
+ 
+ * [Random Forest Model](https://github.com/socratesk/kaggle/blob/master/Telstra/3-RandomForest.R) with Out-of-Bag (OOB) estimator, ```repeatedcv```, and 8 separate 10-fold cross-validations
+ 
+ 
 Refer below for first few rows of submission file:
 
 | id | predict_0   | predict_1   | predict_2   |
