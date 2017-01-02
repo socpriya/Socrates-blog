@@ -16,7 +16,7 @@ In this competition, **Multi-class logarithmic loss** was used to evaluate the p
 
 I generate the following set of models to submit them individually and then to ensemble:
 
- * [5 Fold cross-validation XG Boost Model](https://github.com/socratesk/kaggle/blob/master/Telstra/1-XGBoost.R)
+ * [XG Boost Model with 5 Fold cross-validation](https://github.com/socratesk/kaggle/blob/master/Telstra/1-XGBoost.R)
 
  * [Generalized Boosted Regression Model (GBM)](https://github.com/socratesk/kaggle/blob/master/Telstra/2-GBM.R) with Out-of-Bag (OOB) estimator, ```repeatedcv```, and 5 separate 10-fold cross-validations
  
