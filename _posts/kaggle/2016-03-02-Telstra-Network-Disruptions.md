@@ -22,6 +22,9 @@ I generate the following set of models to submit them individually and then to e
  
  * [Random Forest Model](https://github.com/socratesk/kaggle/blob/master/Telstra/3-RandomForest.R) with Out-of-Bag (OOB) estimator, ```repeatedcv```, and 8 separate 10-fold cross-validations
  
+ * [Stacking (Meta-Ensembling)](https://github.com/socratesk/kaggle/blob/master/Telstra/4-ModelStacking-GBM-over-RF.R) of Random Forest and GBM Models
+ 
+After creating the above models, I took simple average of all the predictions. Then I ensembled by appling different weightage to each model’s predictions for submission.
  
 Refer below for first few rows of submission file:
 
