@@ -7,7 +7,7 @@ category: blog
 
 I was working on a binary Classification challenge for which I had to compute the Performance metrics for all the Predictive models. Using _XGBoost, H2O, GBM, and MLR_ packages, I developed 5 models for which AUC (ROCR) has to be computed.
 
-Following was the order in which the libraries were loaded in the script: <br>
+Following is the order in which the libraries were loaded in the script: <br>
 
     library(caret)
     library(ROCR)
