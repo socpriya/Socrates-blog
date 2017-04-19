@@ -32,8 +32,11 @@ Grade A
 * Practical Machine Learning. Johns Hopkins University
 * Developing Data Products. Johns Hopkins University 
 
-* Kaggle R Tutorial on Machine Learning. [Datacamp](https://www.datacamp.com/home)
-
+* [Kaggle R Tutorial on Machine Learning.]({{ site.baseurl }}/assets/pdf/Kaggle_R.pdf){:target="_blank"} [DataCamp](https://www.datacamp.com/courses/kaggle-r-tutorial-on-machine-learning){:target="_blank"} 
+* [Intro to Python for Data Science.]({{ site.baseurl }}/assets/pdf/Intro_to_Python.pdf){:target="_blank"} [DataCamp](https://www.datacamp.com/courses/intro-to-python-for-data-science){:target="_blank"} 
+* [Intermediate Python for Data Science.]({{ site.baseurl }}/assets/pdf/Interm_Python_for_DS.pdf){:target="_blank"} [DataCamp](https://www.datacamp.com/courses/intermediate-python-for-data-science){:target="_blank"} 
+* [Introduction to Machine Learning.]({{ site.baseurl }}/assets/pdf/Intro_to_ML.pdf){:target="_blank"} [DataCamp](https://www.datacamp.com/courses/introduction-to-machine-learning-with-r){:target="_blank"} 
+* [Credit Risk Modeling in R.]({{ site.baseurl }}/assets/pdf/Credit_Risk_Model.pdf){:target="_blank"} [DataCamp](https://www.datacamp.com/courses/introduction-to-credit-risk-modeling-in-r){:target="_blank"} 
 
 ## Professional Certifications
 
@@ -50,8 +53,10 @@ Grade A
 
 * [**Student Marshal**](http://news.uis.edu/2013/04/uis-to-hold-42nd-commencement-ceremony.html) - University of Illinois - Springfield <br>
 This honorary award is given to one graduating student who best exemplifies the **goals** and **spirit** of the MIS program 
+{: .text-justify}
 
 
 * [Member of **Beta Gamma Sigma**](http://spotlight.uis.edu/2013/05/uis-college-of-business-and-management.html) - an International honor society that provides the highest recognition to a business student anywhere in the world
+{: .text-justify}
 
 ![screenshot]({{ site.baseurl }}/assets/img/underscore.png)
