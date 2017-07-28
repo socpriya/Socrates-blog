@@ -6,7 +6,7 @@ navigation_weight: 3
 ---
 
 ![screenshot]({{site.baseurl}}/assets/img/underscore.png)
-Data Scientists often socialize with fellow Data Scientists, collaorate, share ideas, and help each other to arrive at better solutions. 
+Data Scientists often socialize with fellow Data Scientists, collaborate, exchange ideas, and help each other to arrive at better solutions. 
 {: .text-justify}
 
 This synergy helps them keep abreast of what is happening in Data Science World! 
