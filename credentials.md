@@ -38,7 +38,8 @@ Grade A
 * [Introduction to Machine Learning.]({{ site.baseurl }}/assets/pdf/Intro_to_ML.pdf){:target="_blank"} [DataCamp](https://www.datacamp.com/courses/introduction-to-machine-learning-with-r){:target="_blank"} 
 * [Credit Risk Modeling in R.]({{ site.baseurl }}/assets/pdf/Credit_Risk_Model.pdf){:target="_blank"} [DataCamp](https://www.datacamp.com/courses/introduction-to-credit-risk-modeling-in-r){:target="_blank"} 
 
-* [Deep Learning with Python.]({{ site.baseurl }}/assets/pdf/DeepLearning_Python.pdf){:target="_blank"} [Udemy](https://www.udemy.com/deep-learning-with-python/){:target="_blank"} 
+* [Deep Learning with Python.]({{ site.baseurl }}/assets/pdf/DeepLearning_Python.pdf){:target="_blank"} [Udemy](https://www.udemy.com/deep-learning-with-python/){:target="_blank"}
+* [Data Science A-Z™: Real-Life Data Science Exercises Included.]({{ site.baseurl }}/assets/pdf/Data_Science_A_Z.pdf){:target="_blank"} [Udemy](https://www.udemy.com/datascience/){:target="_blank"}
 
 
 ## Professional Certifications
