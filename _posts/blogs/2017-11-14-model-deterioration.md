@@ -6,7 +6,7 @@ category: blog
 
 Most of the MOOCs, online courses, tutorials, and webinars talk about how to generate better, robust, efficient, and generic models to address business problems but not the deterioration models over a period of time and how to upkeep them so that it continues to deliver its purpose. Besides Analyzing and Generating models, a Data Scientist's role extends to Assess and Maintain them after deployment into production.
 
-There are many reasons a model may deteriorate over a period of time. A model may start deteriorating slowly in 3 or 6 or 12 or 18 months depending upon the factors and business problem it addresses. Since there is no fixed period or template to follow, it is highly recommended to assess the model once in 3 months  or at least 6 months once.
+There are many reasons a model may deteriorate over a period of time. A model may start deteriorating slowly in 3 or 6 or 12 or 18 months depending upon the factors and business problem it addresses. Since there is no fixed period or template to follow, it is highly recommended to assess the model once in 3 months or at least once in 6 months.
 
 ## **<span style="color:blue">Why do models deteriorate?</span>**
 
@@ -35,6 +35,10 @@ Consider that there is a model developed to segment customers of an Insurance co
 	
 **h. Changes in Product:** <br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change in premium rate or coverage of insurance products that makes customers to change their coverage plan
+ 
+**h. Changes in Dataset that are not considered originally:** <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change in discount code and/or addition of new discount code for Insurance premium calculation
+ 
 	
 ## **<span style="color:blue">How to maintain models?</span>**
 
