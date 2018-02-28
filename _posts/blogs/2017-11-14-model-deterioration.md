@@ -27,7 +27,7 @@ Consider that there is a model developed to segment customers of an Insurance co
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The company moved from Agent-based system to online system
 	
 **d. Changes in Existing factors:** <br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The minimum wage of customers got changed but the salary of the model remains same
+&nbsp;&nbsp;&nbsp;The minimum wage of customers got changed but the salary of the model remains same
 {: .text-justify}	
 	
 **e. Competitor:** <br>
@@ -35,19 +35,19 @@ Consider that there is a model developed to segment customers of an Insurance co
 {: .text-justify}	
 	
 **f. Changes in Industry:** <br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mergers and acquisition of similar companies in the industry. New start-ups that process quotes and claims through AI
+&nbsp;&nbsp;&nbsp;&nbsp;Mergers and acquisition of similar companies in the industry. New start-ups that process quotes and claims through AI
 {: .text-justify}	
 	
 **g. Changes in Regulations:** <br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New and/or updated Government regulations. Ex: mandating AML/KYC for baby-boomers and Gen-X customers 
+&nbsp;&nbsp;&nbsp;&nbsp;New and/or updated Government regulations. Ex: mandating AML/KYC for baby-boomers and Gen-X customers 
 {: .text-justify}	
 	
 **h. Changes in Product:** <br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change in premium rate or coverage of insurance products that makes customers to change their coverage plan
+&nbsp;&nbsp;Change in premium rate or coverage of insurance products that makes customers to change their coverage plan
 {: .text-justify}	
  
 **i. Changes in Dataset that are not considered originally:** <br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change in discount code and/or addition of new discount code for Insurance premium calculation
+ &nbsp;&nbsp;&nbsp;&nbsp;Change in discount code and/or addition of new discount code for Insurance premium calculation
 {: .text-justify}	 
 	
 ## **<span style="color:blue">How to maintain models?</span>**
