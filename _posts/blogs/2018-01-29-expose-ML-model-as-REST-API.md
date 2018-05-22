@@ -7,6 +7,7 @@ category: blog
 To realize the true benefit of a Machine Learning model it has to be deployed onto a production environment and should start predicting outcomes for a business problem. Most Data Scientists know how to extract data from multiple data sources, combine, clean, and consolidate data, perform feature engineering, extract features, train multiple models, ensemble, validate, and test the models. But what they lack is how to take a trained model onto production. 
 {: .text-justify}
 
+There are multiple ways to deploy a model in production. However, in this post, we will go through the step-by-step process of creating a basic model and deploy it as a Web App using Flask micro framework - a Python based toolkit. These steps are executed in Windows Operating System. But for Linux, Ubuntu, and other OS, this should work seamlessly by adopting relevant syntax.
 {: .text-justify}
 
 ## **<span style="color:blue">Steps:</span>**
