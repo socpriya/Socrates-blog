@@ -1,13 +1,12 @@
 ---
 layout: post
-title: How to expose a Machine Learning Model as REST API (using Flask)?
+title: How to build a Web App for a Machine Learning model using Flask micro framework?
 category: blog
 ---
 
-To realize the true benefit of a Machine Learning model it has to be deployed onto production environment and should start predicting outcomes for a business problem. Most of the Data Scientists know how to extract data from multiple data sources, combine, clean, and consolidate data, perform feature engineering, extract features, train multiple models, ensemble, validate, and test the models. But what they lack is, how to take a trained model onto production. 
+To realize the true benefit of a Machine Learning model it has to be deployed onto a production environment and should start predicting outcomes for a business problem. Most Data Scientists know how to extract data from multiple data sources, combine, clean, and consolidate data, perform feature engineering, extract features, train multiple models, ensemble, validate, and test the models. But what they lack is how to take a trained model onto production. 
 {: .text-justify}
 
-Well, there are multiple ways to deploy a model in production. But in this post, we will go through the process of creating a basic model and deploy it as REST API web service using Flask - a Python web framework, step-by-step. These steps are executed in Windows Operating System. But for Linux, Ubuntu, and other OS, this should work seamlessly by adopting relevant syntax.
 {: .text-justify}
 
 ## **<span style="color:blue">Steps:</span>**
@@ -35,9 +34,9 @@ Now that your machine learning model is created and persisted in hard-disk as `S
 5. After the above file is created, go to `flask-blog` folder, open a _Command_ prompt, and run the command `python server.py`. It will execute as below: <br>&nbsp;&nbsp;&nbsp;![FlaskServer1]({{ site.baseurl }}/assets/img/flask-server1.png)
 
 6. After the server is started successfully, open a browser window, and enter URL `http://127.0.0.1:5000/` <br>&nbsp;&nbsp;&nbsp;![FlaskBrowser1]({{ site.baseurl }}/assets/img/browser-1.png)
-If you get a message **Hi, Welcome to Flask!!** in browser, *Congratulations*, your Flask server is up and running successfully! If you get any error or could not get the server up and running, leave a note under _Comments_ section of this blog and I will get back to you as early as possible.
+If you get a message **Hi, Welcome to Flask!!** in your browser, *congratulations*, your Flask server is up and running successfully! If you get any error or could not get the server up and running, leave a note under the _Comments_ section of this blog and I will get back to you as early as possible.
 
-7. Having successfully started the server, let us move on to extend `server.py` to predict the new observation using previously trained and stored SVM Model. <br><br>Before updating code, go to the _Command_ prompt and stop Flask server using `Ctrl-C`. Update `server.py` code as below, or may simply copy & paste the contents to your code.
+7. Having successfully started the server, let us move on to extend `server.py` to predict the new observation using previously trained and stored SVM Model. <br><br>Before updating code, go to the _Command_ prompt and stop Flask server using `Ctrl-C`. Update `server.py` code as below, or you may simply copy & paste the contents to your code.
 <script src="https://gist.github.com/socratesk/b881a75e8ed1d7ff8c42465f0ae53b3a.js"></script>
 
 8. Go to the _Command_ prompt again and start the server using `python server.py`. 
@@ -46,10 +45,10 @@ If you get a message **Hi, Welcome to Flask!!** in browser, *Congratulations*, y
 &nbsp;&nbsp;&nbsp;![FlaskBrowser1]({{ site.baseurl }}/assets/img/browser-2.png)
 
 {: .text-justify}
-**Voila!** The predicted class of Iris will appear on the screen as above. Play around by changing the values of features in URLs query string.
+**Voila!** The predicted class of Iris will appear on the screen as above. Play around by changing the values of features in the URL query string.
 
 {: .text-justify}
-Now that you understood about how a machine learning model can be created, persisted onto a disk, loaded from disk, and extract features from browser request and use the model to predict, using those features.
+Now that you understand how a machine learning model can be created, persisted onto a disk, loaded from disk, can extract features from a browser request, and can use the model to predict the class using those features.
 
 {: .text-justify}
 This application can be extended with fancy UI containing `form` element, dropdown boxes, submit button, etc..
