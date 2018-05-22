@@ -11,8 +11,8 @@ navigation_weight: 1
 
 <p class="message"><b><span style="color:green">I did not come this far only to come this far!</span></b></p>
 
-<p class="message"><b><span style="color:green">Better to worn-out than rust-out!</span></b></p>
+<p class="message"><b><span style="color:green">It is better to wear-out than rust-out!</span></b> - Edwin Markham</p>
 
-<p class="message"><b><span style="color:green">If you don't take risks, you will always work for someone who does!</span></b></p>
+<p class="message"><b><span style="color:green">If you don't take risks, you will always work for someone who does!</span></b> - Daniel Ally</p>
 
 ![screenshot]({{site.baseurl}}/assets/img/underscore.png)
