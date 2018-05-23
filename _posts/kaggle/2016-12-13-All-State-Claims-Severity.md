@@ -4,13 +4,13 @@ title: Allstate Insurance Company - Prediction of Severity of Insurance Claims
 category: kaggle
 ---
 
-This time [Allstate Insurance Company](https://www.allstate.com/) sponsored a "recruitment" competition in [Kaggle](https://www.kaggle.com/c/allstate-claims-severity) to predict cost of insurance Claims so that the severity of a Claim can be determined in an automated way. The determination of Claims severity will improve _Claim Service_ that Allstate provides to its customers, which in turn will improve the Customer Experience for the 16 million households it protects today.
+This time [Allstate Insurance Company](https://www.allstate.com/) sponsored a "recruitment" competition in [Kaggle](https://www.kaggle.com/c/allstate-claims-severity) to predict the cost of insurance Claims so that the severity of a Claim can be determined in an automated way. The determination of Claims severity will improve _Claim Service_ that Allstate provides to its customers, which in turn will improve the Customer Experience for the 16 million households it protects today.
 {: .text-justify}
 
 The competition ran from 10-Oct-2016 to 12-Dec-2016 and there were 3055 individuals who participated across the globe.
 {: .text-justify}
 
-The [dataset]( https://www.kaggle.com/c/allstate-claims-severity/data) comprised of 116 categorical and 14 continuous features. The “loss” feature given in the train dataset is the one that had to be predicted from test dataset. **Mean Absolute Error (MAE)** -  measure of how close the predicted values are to the eventual outcomes or actuals, was used to evaluate and score the loss prediction. Refer to any of my code files in [Github - Allstate folder](https://github.com/socratesk/kaggle/tree/master/Allstate) for its implementation.
+The [dataset]( https://www.kaggle.com/c/allstate-claims-severity/data) comprised of 116 categorical and 14 continuous features. The “loss” feature given in the train dataset is the one that had to be predicted from the test dataset. **Mean Absolute Error (MAE)** -  measure of how close the predicted values are to the eventual outcomes or actuals, was used to evaluate and score the loss prediction. Refer to any of my code files in [Github - Allstate folder](https://github.com/socratesk/kaggle/tree/master/Allstate) for its implementation.
 {: .text-justify}
 
 ![screenshot]({{ site.baseurl }}/assets/img/MAE.png)
@@ -33,7 +33,7 @@ To test my submission file and to know where I stand in Public Leaderboard, I pr
  * [XGBoost Model](https://github.com/socratesk/kaggle/blob/master/Allstate/6-XGBoost-FeatureEngg.R) with parameter tuning and feature engineering
 {: .text-justify}
 
-After creating the above models, I took a simple average of all the predictions. Then I ensembled by applying different weightage to each model's predictions, cross-validated, and then submitted. Finally, at the end of the competition, I could get into [top 20% (604 out of 3055)](https://www.kaggle.com/c/allstate-claims-severity/leaderboard/private) in Private Leaderboard. 
+After creating the above models, I took arithmetic mean of all the predictions. Then I ensembled by applying different weightage to each model's predictions, cross-validated, and then submitted. Finally, at the end of the competition, I could get into [top 20% (604 out of 3055)](https://www.kaggle.com/c/allstate-claims-severity/leaderboard/private) in Private Leaderboard. 
 {: .text-justify}
 
 Refer below for first few rows of submission file:
