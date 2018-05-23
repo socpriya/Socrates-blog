@@ -4,7 +4,10 @@ title: Prudential Life Insurance - Classification of Risk
 category: kaggle
 ---
 
-This 'Featured' [Kaggle competition](https://www.kaggle.com/c/prudential-life-insurance-assessment) was from [Prudential Life Insurance](http://lifeinsurance.prudential.com/) to assess and identify risk classification of customers based on their extensive personal and medical information. This will help Prudential to shorten their current 30-day turnaround to be fast enough to produce the quote and send it out to customers. The competition ran from 23-Nov-2015 to 15-Feb-2016 and there were 2619 teams who participated across the globe.
+This 'Featured' [Kaggle competition](https://www.kaggle.com/c/prudential-life-insurance-assessment) was from [Prudential Life Insurance](http://lifeinsurance.prudential.com/) to assess and identify risk classification of customers based on their extensive personal and medical information. This will help Prudential to shorten their current 30-day turnaround to be fast enough to produce the quote and send it out to customers. 
+{: .text-justify}
+
+The competition ran from 23-Nov-2015 to 15-Feb-2016 and there were 2619 teams who participated across the globe.
 {: .text-justify}
 
 In this Supervised Learning, customers' personal and medical information, life insurance product chosen, and actual risk were provided in [Train Data set](https://www.kaggle.com/c/prudential-life-insurance-assessment/data). The _quadratic weighted kappa_, which measures the agreement between two ratings, was used to evaluate and score the Risk prediction. [Refer here](https://github.com/benhamner/ASAP-AES/tree/master/Evaluation_Metrics/R) to understand more about how to evaluate it on predicted value.
