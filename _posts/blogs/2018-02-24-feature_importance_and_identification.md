@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to identify which features of data are important for a Machine Learning model?
+title: How to identify the features that are important for a Machine Learning model?
 category: blog
 ---
 In one of the recent meet-ups, I was asked, which is important for generating a good Machine Learning (ML) model - A good Data Scientist or  Data? That is an interesting question, right? 
