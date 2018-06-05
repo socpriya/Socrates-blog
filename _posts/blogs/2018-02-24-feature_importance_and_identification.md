@@ -14,10 +14,10 @@ The next challenge is to identify whether the data captured is good or bad. In o
 
 **Statistical Method:**
 
-In this method, we do not create an actual machine learning model using any algorithms but we use the given dataset to analyze how the features are correlated to each other. _Chi-squared_ and _Adjusted R-squared_ are the two majorly used metrics that can be employed. Though there are many methods viz _All-in, Backward Elimination, Forward Selection, Bi-directional Elimination,_ and _Score Comparison_, **_Backward Elimination_** (a stepwise-regression technique) is the widely used method in the industry.
+In this method, we do not create an actual machine learning model using any algorithms but we use the given dataset to analyze how the features are correlated to each other. [_Chi-squared_](http://www.statisticshowto.com/probability-and-statistics/chi-square/){:target="_blank"} and [_Adjusted R-squared_](http://www.statisticshowto.com/adjusted-r2/){:target="_blank"} are the two majorly used metrics that can be employed. Though there are many methods viz _All-in, Backward Elimination, Forward Selection, Bi-directional Elimination,_ and _Score Comparison_, **_Backward Elimination_** (a stepwise-regression technique) is the widely used method in the industry.
 {: .text-justify}
 
-This can be achieved using [Gretl](http://gretl.sourceforge.net/){:target="_blank"} - an open-source statistical software package. [Refer here](http://gretl.sourceforge.net/gretl-help/gretl-guide.pdf){:target="_blank"} for Gretl User Guide.
+This can be achieved using [Gretl](http://gretl.sourceforge.net/){:target="_blank"} - an open-source statistical software package provided by [SourceForge](https://sourceforge.net/){:target="_blank"}. [Gretl User Guide](http://gretl.sourceforge.net/gretl-help/gretl-guide.pdf){:target="_blank"} is a good resource to start with for this exercise. Follow the below steps to perform backward elimination:
 {: .text-justify}
 
 1. Select a _significance level_ (SL) (say, 0.05)
