@@ -41,6 +41,8 @@ Grade A
 * [Deep Learning with Python.]({{ site.baseurl }}/assets/pdf/DeepLearning_Python.pdf){:target="_blank"} [Udemy](https://www.udemy.com/deep-learning-with-python/){:target="_blank"}
 * [Data Science A-Z™: Real-Life Data Science Exercises Included.]({{ site.baseurl }}/assets/pdf/Data_Science_A_Z.pdf){:target="_blank"} [Udemy](https://www.udemy.com/datascience/){:target="_blank"}
 
+* [How Google does Machine Learning.]({{ site.baseurl }}/assets/pdf/Google_Cloud.pdf){:target="_blank"} [Google](https://www.coursera.org/learn/google-machine-learning/){:target="_blank"}
+
 
 ## Professional Certifications
 
