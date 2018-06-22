@@ -4,16 +4,23 @@ title: Presentations
 url: presentations
 navigation_weight: 2
 ---
+![screenshot]({{site.baseurl}}/assets/img/underscore.png)
+**19 May 2018**
+
+In Chicago TensorFlow meetup, I gave a presentation and [code walk-through](https://github.com/socratesk/ImagePredictor){:target="_blank"} of how a pre-trained machine learning model can be built as an interactive web application for inference. Further, I showcased a [web application](https://imagepredictor.herokuapp.com/upload){:target="_blank"} developed using a pre-trained Deep Learning model (ResNet50).
+{: .text-justify}
 
 ![screenshot]({{site.baseurl}}/assets/img/underscore.png)
+**October 2016**
 
-MongoDB is one of the NoSQL Document-oriented datastores being adopted widely in the industry. The _Nexus Architecture_ of MongoDB has been greatly leveraged by Analytical and Data Science area recently. On this, I gave multiple presentations to my company in the month of October 2016.
+MongoDB is one of the NoSQL Document-oriented datastores being adopted widely in the industry. The _Nexus Architecture_ of MongoDB has been greatly leveraged by Analytical and Data Science area recently. On this, I gave multiple presentations to my company during this timeframe.
 {: .text-justify}
 
 Want to take a look at the presentation material? Click [here]({{ site.baseurl }}/assets/pdf/MongoDB-Overview.pdf)
 {: .text-justify}
 
 ![screenshot]({{site.baseurl}}/assets/img/underscore.png)
+**28 March 2015**
 
 As a former member of American Production and Inventory Control Society (APICS), I had an opportunity to attend a conference in Chicago, IL presented by <b>Sears Holdings Corporation</b> on their 'Real-time Inventory Tracking System using Big Data Tools'. Thanks Sears for sharing this public info to community! 
 {: .text-justify}
@@ -22,6 +29,7 @@ I have reproduced the personal notes taken during the conference [here]({{site.b
 {: .text-justify}
 
 ![screenshot]({{site.baseurl}}/assets/img/underscore.png)
+**November 2013**
 
 As a Cloudera Certified Developer for Apache Hadoop (CCDH), I gave presentation on Hadoop technology to my company during last quarter of 2013.
 {: .text-justify}
