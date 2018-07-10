@@ -18,7 +18,7 @@ In this post, we will apply [XGBoost](https://xgboost.readthedocs.io/en/latest/p
 </object>
 
 <br>
-The initial accuracy of XGBoost model, from the above PDF document, is 73.26% with random parameters. After tuning 6 different parameters, the accuracy increased by 1.16% to 74.42%. Though the increase in accuracy is marginal due to the very small dataset, this document explains how one can tune hyper-parameters using [*GridSearchCV*](http://scikit-learn.org/0.16/modules/generated/sklearn.grid_search.GridSearchCV.html) and improve the performance.
+The initial accuracy of XGBoost model, from the above PDF document, is 73.26% with random parameters. After tuning 6 different parameters, the accuracy increased by 1.16% to 74.42%. Though the increase in accuracy is marginal due to the very small dataset, this document explains how one can tune hyper-parameters using [*GridSearchCV*](http://scikit-learn.org/0.16/modules/generated/sklearn.grid_search.GridSearchCV.html){:target="_blank"} and improve the performance.
 {: .text-justify}
 
 ---
