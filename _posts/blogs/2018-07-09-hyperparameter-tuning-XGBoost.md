@@ -16,7 +16,7 @@ In this post, we will apply [XGBoost](https://xgboost.readthedocs.io/en/latest/p
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="{{ site.baseurl }}/assets/pdf/Parameter_Tuning_XGBoost.pdf">Download PDF</a>.</p>
     </embed>
 </object>
-
+[<b><center><span style="font-size: 18px;">Click here to view the above PDF document</span></center></b>]({{ site.baseurl }}/assets/pdf/Parameter_Tuning_XGBoost.pdf){:target="_blank"}
 <br>
 The initial accuracy of XGBoost model, from the above PDF document, is 73.26% with random parameters. After tuning 6 different parameters, the accuracy increased by 1.16% to 74.42%. Though the increase in accuracy is marginal due to the very small dataset, this document explains how one can tune hyper-parameters using [*GridSearchCV*](http://scikit-learn.org/0.16/modules/generated/sklearn.grid_search.GridSearchCV.html){:target="_blank"} and improve the performance.
 {: .text-justify}
