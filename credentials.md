@@ -43,6 +43,8 @@ Grade A
 
 * [How Google does Machine Learning.]({{ site.baseurl }}/assets/pdf/Google_Cloud.pdf){:target="_blank"} [Google](https://www.coursera.org/learn/google-machine-learning/){:target="_blank"}
 
+### <b>Computer Vision</b>
+* [Master Computer Vision™ OpenCV3 in Python & Machine Learning.]({{ site.baseurl }}/assets/pdf/ComputerVision_OpenCV.pdf){:target="_blank"} [Udemy](https://www.udemy.com/master-computer-vision-with-opencv-in-python/){:target="_blank"}
 
 ## Professional Certifications
 
