@@ -42,6 +42,7 @@ Grade A
 * [Data Science A-Z™: Real-Life Data Science Exercises Included.]({{ site.baseurl }}/assets/pdf/Data_Science_A_Z.pdf){:target="_blank"} [Udemy](https://www.udemy.com/datascience/){:target="_blank"}
 
 * [How Google does Machine Learning.]({{ site.baseurl }}/assets/pdf/Google_Cloud.pdf){:target="_blank"} [Google](https://www.coursera.org/learn/google-machine-learning/){:target="_blank"}
+* [Amazon Web Services Machine Learning Essential Training.]({{ site.baseurl }}/assets/pdf/AWS_ML.pdf){:target="_blank"} [Lynda](https://www.lynda.com/Amazon-Web-Services-tutorials/Amazon-Web-Services-Machine-Learning-Essential-Training/624308-2.html){:target="_blank"}
 
 ### <b>Computer Vision</b>
 * [Master Computer Vision™ OpenCV3 in Python & Machine Learning.]({{ site.baseurl }}/assets/pdf/ComputerVision_OpenCV.pdf){:target="_blank"} [Udemy](https://www.udemy.com/master-computer-vision-with-opencv-in-python/){:target="_blank"}
