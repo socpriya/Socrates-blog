@@ -5,14 +5,29 @@ url: quotes
 
 navigation_weight: 1
 ---
+<br>
 
-![screenshot]({{site.baseurl}}/assets/img/underscore.png)
+![I_didnt_come_this_far]({{site.baseurl}}/assets/img/quotes/I_didnt_come_this_far.jpg){:height="500px" width="500px"}
+{: .text-center}
 
+![Ornamental-rule-lines]({{site.baseurl}}/assets/img/quotes/Ornamental-rule-lines.jpg){:height="40px" width="700px"}
+{: .text-center}
 
-<p class="message"><b><span style="color:green">I did not come this far only to come this far!</span></b></p>
+![It_is_not_the_strongest]({{site.baseurl}}/assets/img/quotes/It_is_not_the_strongest.jpg){:height="500px" width="500px"}
+{: .text-center}
 
-<p class="message"><b><span style="color:green">It is better to wear-out than rust-out!</span></b> - Edwin Markham</p>
+![Ornamental-rule-lines]({{site.baseurl}}/assets/img/quotes/Ornamental-rule-lines.jpg){:height="40px" width="700px"}
+{: .text-center}
 
-<p class="message"><b><span style="color:green">If you don't take risks, you will always work for someone who does!</span></b> - Daniel Ally</p>
+![It_is_better_to_wear]({{site.baseurl}}/assets/img/quotes/It_is_better_to_wear.jpg){:height="500px" width="500px"}
+{: .text-center}
 
-![screenshot]({{site.baseurl}}/assets/img/underscore.png)
+![Ornamental-rule-lines]({{site.baseurl}}/assets/img/quotes/Ornamental-rule-lines.jpg){:height="40px" width="700px"}
+{: .text-center}
+
+![If_you_dont_take_risk]({{site.baseurl}}/assets/img/quotes/If_you_dont_take_risk.png){:height="500px" width="500px"}
+{: .text-center}
+
+![Ornamental-rule-lines]({{site.baseurl}}/assets/img/quotes/Ornamental-rule-lines.jpg){:height="40px" width="700px"}
+{: .text-center}
+
