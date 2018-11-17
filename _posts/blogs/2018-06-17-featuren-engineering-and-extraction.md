@@ -24,17 +24,17 @@ In ***Feature Extraction***, the existing features are converted and/or transfor
 	![models]({{site.baseurl}}/assets/img/one-hot-encode.png)
 	<script src="https://gist.github.com/socratesk/ee0ffea1ee88d38b712dcd39868eabd9.js"></script>
 	
-2. **Label Encoding:** Assign each categorical variable a unique numerical ID
+2. **Label Encoding:** Assign each categorical variable (label) a unique numerical ID
 >
 	![models]({{site.baseurl}}/assets/img/label-encode.png)
 	<script src="https://gist.github.com/socratesk/f8d7228d259acb3d82b07256ba475330.js"></script>
 
-3. **Count Encoding:** Replace categorical variables with their total count
+3. **Label Count Encoding:** Replace categorical variables (labels) with their total count
 >
 	![models]({{site.baseurl}}/assets/img/count-encode.png)
 	<script src="https://gist.github.com/socratesk/c7c170924c571187df74df2d521ed848.js"></script>
 		
-4. **Label Count Encoding:** Rank categorical variables by their count (more count higher number)
+4. **Label Rank Encoding:** Rank categorical variables (labels) by their count (more count higher number)
 >
 	![models]({{site.baseurl}}/assets/img/label-count-encode.png)
 	<script src="https://gist.github.com/socratesk/23be733017f6d6adc721f00842d47b56.js"></script>
